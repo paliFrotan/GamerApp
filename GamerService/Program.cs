@@ -11,3 +11,7 @@ Console.WriteLine(gamer.Age);
 var wheelOne = new AlloyWheel();
 wheelOne.PumpedUpTyre();
 Console.WriteLine(wheelOne.IsPumpedUp);
+var chooseFruit = new Orange("Orange","orange","Sicily");
+Console.WriteLine(chooseFruit.GetDetails());
+var secondFruit = new Lemon("Lemon", "yellow", "France");
+Console.WriteLine(secondFruit.GetDetails());
