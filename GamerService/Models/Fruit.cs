@@ -12,6 +12,9 @@ abstract class Fruit
         Color = color;
         CountryOfOrigin = countryOfOrigin;
     }
-    abstract public string GetDetails();
+    public string GetDetails()
+    {
+        return $"I am {Color} {Name} and I am originally from {CountryOfOrigin}!";
+    }
     
 }
